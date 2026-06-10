@@ -52,7 +52,7 @@ export const articles: Article[] = [
     title: '내셔널지오그래픽 트래블러 5월호',
     subtitle: 'STILL LIVING',
     summary: '오래된 전설과 현대의 생명력이 공존하는 유럽의 숨겨진 오래된 골목과 그 안에서 쉼 없이 하루를 채워가는 예술가들의 삶.',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuB4-dLxXY_0UBdrCKMUIMgSNSMzg4iKGuW5nXvvKmY4FtuBhmTyBgacSOCDd4L_3QmOz5YjJjYqGFKa9qr5BZzcXcZ6_x4Z8PKg0r_IyaQHe9rHQiZpGbQiASBboejWhGEbbrZfAUMDwFKLVBOBLGG-eEQHUPP6BRwkObWzwqwoaCnjbL4yS_2MXk5YyupQqWYjYYtVVO6TLsLGuseNgokb__dhrJNYXuVEyiJjJqgyRafb-efJu6O_xmO-HkoQ7d6Vdb4P9O-t01px',
+    image: './src/image/bluepants.png',
     readTime: '6 min read',
     author: '클레어 마틴 (Claire Martin) 여행 전문 사진기자',
     date: '2026-05-15',

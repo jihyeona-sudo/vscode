@@ -61,7 +61,7 @@ export default function App() {
 
   // Simple progress bar timer for Disney Plus simulation
   useEffect(() => {
-    let interval: NodeJS.Timeout;
+    let interval: ReturnType<typeof setInterval>;
     if (playingTrailer) {
       interval = setInterval(() => {
         setProgress(prev => {
@@ -280,7 +280,7 @@ export default function App() {
             <img 
               alt="Global Canyon Exploration" 
               className="w-full h-full object-cover z-0 opacity-80 scale-100 transition-transform duration-[10s] hover:scale-105" 
-              src="https://lh3.googleusercontent.com/aida/AP1WRLtC_VdJIu10E3o_ImVTZ1il_kWg9ikSebdDRium5nUS9F2IXBHNuVfKRS6ajA-7CZ2EdQ62hNaJXhNHw67DdA6Vsm5xt-LVDGKWqzJVe_o03-0_ydD6wB5OKt_QvGS7nqnxfYFYoQvnK8qsxGS0K884vuyleRsWoeA8Vqa3wPV-zymQ-IbdUTSPf2XeyWVqDU3pS_CSTHLrxE_Mi3KqCkRmL6h71knQh0XO2roCrkA22RsmNvt7pj3FUA8"
+              src="./src/image/hero.png"
               referrerPolicy="no-referrer"
             />
             {/* Dark Linear Gradient Overlay corresponding exactly to the high-contrast aesthetic */}
@@ -359,7 +359,7 @@ export default function App() {
                   <img 
                     alt="Inca ruins excavation" 
                     className="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-[4s]" 
-                    src="https://lh3.googleusercontent.com/aida/AP1WRLu45AQBvxAaPY5E6ImcNyP8TL_snVEcKDBpGMIPV2pzTIqFvUn98NJJo-xWnRv13He_gTyITdaT-pU8zHux-gvXLZXdCBJylqCzm13MjzQZReF22E2BvyTfqknByIgM3N44e4MiJE08Jow2OcvfYQba3FykVRIPPWkmmJrbTOnXBjltMgYC37VQIJVhOgB-ka34vANuR5mKRUbem1J8__82y8Kv7PTovG9_N9JopphkaLW8s2xUdIoW_RoO"
+                    src="./src/image/anime.jpg"
                     referrerPolicy="no-referrer"
                   />
                   <div className="absolute top-4 left-4 bg-black text-[#FFCC00] text-[10px] font-bold tracking-widest px-2 py-1 rounded-sm">
@@ -437,7 +437,7 @@ export default function App() {
                     <img 
                       alt="Royal Bengal Tiger close-up" 
                       className="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-[4s]" 
-                      src="https://lh3.googleusercontent.com/aida-public/AB6AXuCV3vWK-vxBv8cGIYmWd-69-aX3Y-jDHkjcgHUo1y4X87482hcF3Ht99jdFbBaS8vWpsgb1r2Kz1SWKRXnUjBTC5e_l3MWYvDOSq4xCFgMzZ5QALIGgl8wGNzQ5koPjmjNoqjMg0FYwlRmIWCDDq9LzqTstyA99CB98PQlLeTKb_W1Jxbd65HNNqsYPINlN7bnr1UAJ3O2q7iNotpk1n1kKl20DKHAtBgNqYKMfxXgWb456bE065VNC05RrAoHEVYx5CJxEy5__kAGi"
+                      src=".src/image/bluepants.png"
                       referrerPolicy="no-referrer"
                     />
                   </div>
