@@ -1,0 +1,6 @@
+{
+  "name": "National Geographic Korea",
+  "description": "내셔널지오그래픽 스타일의 아름다운 반응형 포털 앱으로 최신 매거진, 스토리, 그리고 스토어 상품을 소개합니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

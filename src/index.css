@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@300;400;500;700;900&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans KR", "Hanken Grotesk", sans-serif;
+  --font-display: "Space Grotesk", "Hanken Grotesk", sans-serif;
+  
+  --color-brand-yellow: #FFCC00;
+  --color-deep-black: #000000;
+  --color-canvas: #ffffff;
+  --color-canvas-parchment: #f5f5f7;
+  --color-text-primary: #1d1d1f;
+  --color-text-secondary: #86868b;
+  --color-action-blue: #0066cc;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-canvas);
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom smooth transitions and utility styles */
+.text-stroke-yellow {
+  text-shadow: -1px -1px 0 var(--color-brand-yellow), 1px -1px 0 var(--color-brand-yellow), -1px 1px 0 var(--color-brand-yellow), 1px 1px 0 var(--color-brand-yellow);
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
