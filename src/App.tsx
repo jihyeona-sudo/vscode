@@ -280,7 +280,7 @@ export default function App() {
             <img 
               alt="Global Canyon Exploration" 
               className="w-full h-full object-cover z-0 opacity-80 scale-100 transition-transform duration-[10s] hover:scale-105" 
-              src="./src/image/hero.png"
+              src="./image/hero.png"
               referrerPolicy="no-referrer"
             />
             {/* Dark Linear Gradient Overlay corresponding exactly to the high-contrast aesthetic */}
@@ -359,7 +359,7 @@ export default function App() {
                   <img 
                     alt="Inca ruins excavation" 
                     className="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-[4s]" 
-                    src="./src/image/anime.jpg"
+                    src="./image/anime.jpg"
                     referrerPolicy="no-referrer"
                   />
                   <div className="absolute top-4 left-4 bg-black text-[#FFCC00] text-[10px] font-bold tracking-widest px-2 py-1 rounded-sm">
